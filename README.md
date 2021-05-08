@@ -1,3 +1,12 @@
+# Criação da imagem
+
+Após configurar o arquivo Dockerfile, foi executado o seguinte comando para criar a imagem:
+
+docker build -t ubuntu-nginx:1.0 .
+
+Ao final, foi concluido com a criação da imagem ubuntu-nginx:1.0
+
+
 # README.md
 
 Para atender a solicitação do trabalho aplicado, foi criado um Dockerfile, criando a imagem ubuntu-nginx, uma imagem do ubuntu 18, com o nginx empacotado.
